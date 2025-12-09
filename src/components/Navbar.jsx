@@ -54,17 +54,16 @@ export default function Navbar() {
                 }`}>
                 <div className="flex items-center justify-between py-2">
                     {/* Logo */}
-                    <motion.a
+                    <a
                         href="#"
-                        className="text-xl font-bold tracking-tight"
-                        whileHover={{ scale: 1.05 }}
+                        className="text-2xl font-bold tracking-tighter hover:scale-105 transition-transform"
                         onClick={(e) => {
                             e.preventDefault();
                             window.scrollTo({ top: 0, behavior: 'smooth' });
                         }}
                     >
-                        <span className="gradient-text-accent">NC</span>
-                    </motion.a>
+                        <span className="gradient-text-accent">AK</span>
+                    </a>
 
                     {/* Desktop Navigation */}
                     <div className="hidden md:flex items-center gap-1">
@@ -73,8 +72,8 @@ export default function Navbar() {
                                 key={link.name}
                                 onClick={() => scrollToSection(link.href)}
                                 className={`relative px-4 py-2 text-sm font-medium transition-colors ${activeSection === link.href.slice(1)
-                                        ? 'text-white'
-                                        : 'text-[var(--color-text-secondary)] hover:text-white'
+                                    ? 'text-white'
+                                    : 'text-[var(--color-text-secondary)] hover:text-white'
                                     }`}
                                 whileHover={{ y: -2 }}
                                 whileTap={{ scale: 0.95 }}

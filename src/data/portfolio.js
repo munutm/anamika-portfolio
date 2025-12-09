@@ -1,8 +1,8 @@
-// Portfolio Data - Niranjana C
+// Portfolio Data - Anamika K
 export const portfolioData = {
     personal: {
         name: "Anamika K",
-        title: "ERPNext Functional Consultant & Developer",
+        title: "ERPNext Functional Consultant",
         subtitle: "I bridge the gap between business needs and ERPNext solutions. specialized in business process analysis, workflow mapping, and end-to-end ERP implementation to ensure efficient and scalable operations.",
         email: "anamikaachu147@gmail.com",
         location: "Calicut, Kerala",
@@ -23,10 +23,20 @@ export const portfolioData = {
         bio: "I am Anamika K, an ERPNext Functional Consultant dedicated to transforming business processes into optimized digital workflows. My expertise covers the entire ERP lifecycle—from requirement gathering and process mapping to module configuration, master data setup, and user acceptance testing (UAT). I excel at designing approval workflows, ensuring statutory compliance, and bridging the communication gap between end-users and technical teams to deliver solutions that truly meet business needs.",
         strengths: [
             "Requirement Gathering & Gap Analysis",
-            "Module Configuration (HR, Accounts, Stock)",
-            "Master Data & Inventory Management",
-            "Role-Based Permissions & Security",
+            "Business Process Mapping & Workflow Design",
+            "Sales, Purchase, Accounts, HR & Inventory Configuration",
+            "Master Data Setup & Inventory Management",
+            "Data Migration & Opening Balances",
+            "Role-Based Permissions & Security Management",
+            "Functional Testing & UAT Support",
+            "Go-Live Deployment & Post-Implementation Support",
             "End-User Training & Documentation",
+            "Reporting, Analytics & Dashboard Setup",
+            "Print Format, Form & Layout Customization",
+            "Process Optimization & System Improvements",
+            "Project Coordination & Client Communication",
+            "Issue Tracking, Troubleshooting & Resolution",
+            "Change Management & User Adoption Support",
         ],
         stats: [
             { value: "8+", label: "Modules Configured" },
@@ -103,7 +113,6 @@ export const portfolioData = {
     skills: {
         core: ["Business Process Analysis", "Requirement Gathering", "Workflow Configuration", "UAT Support"],
         functional: ["Sales & CRM", "Purchase & Inventory", "Finance & Accounting", "HR & Payroll", "Projects"],
-        technical: ["Data Import/Migration", "Print Format Testing", "Report Analysis", "Permission Manager"],
         domain: ["Inventory Valuation", "Taxation Compliance", "Budgeting & Cost Centers", "Stock Management"],
         tools: ["ERPNext/Frappe", "Excel (Data Prep)", "Draw.io (Flowcharts)", "Postman"],
         soft: ["User Training", "Documentation (SOPs)", "Stakeholder Management", "Problem Solving"],

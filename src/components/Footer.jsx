@@ -33,10 +33,10 @@ export default function Footer() {
                                 scrollToTop();
                             }}
                         >
-                            <span className="gradient-text-accent">NC</span>
+                            <span className="gradient-text-accent">AK</span>
                         </motion.a>
                         <p className="text-sm text-[var(--color-text-muted)] flex items-center gap-1 justify-center md:justify-start">
-                            © {currentYear} Made with <Heart size={14} className="text-red-500" /> by Niranjana C
+                            © {currentYear} Made with <Heart size={14} className="text-red-500" /> by Anamika K
                         </p>
                     </div>
 
